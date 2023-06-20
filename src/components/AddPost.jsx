@@ -1,7 +1,7 @@
 import '../style.css'
 function AddPost() {
     return (
-        <form className='mx-auto sm:w-full p-5 border-custom rounded-xl black-theme'>
+        <form className='mx-auto w-full p-5 border-custom rounded-xl black-theme'>
             <fieldset className='flex flex-col gap-2'>
                 <legend className='font-bold mb-2'>Crear nuevo post:</legend>
                 <input placeholder='Escriba un título...' type="text" className=' rounded-sm border-input p-3 black-theme' />
