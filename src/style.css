@@ -18,6 +18,13 @@ body {
     /* background-color: #222; */
 }
 
-.body{
+.body {
     width: 100vw;
+}
+
+a {
+    text-decoration: none;
+    /* Quitar subrayado */
+    color: inherit;
+    /* Heredar el color del texto */
 }
