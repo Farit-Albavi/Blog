@@ -3,10 +3,12 @@ import PostCard from './components/PostCard'
 import Categories from './components/Categories'
 import AddPost from './components/AddPost'
 import Aside1 from './components/Aside1'
+import HeaderMovile from './components/HeaderMovile'
 function App() {
 
   return (
     <>
+      <HeaderMovile></HeaderMovile>
       <Header></Header>
       <Categories></Categories>
       <div className="m-auto container flex mt-5 text-white">
