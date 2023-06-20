@@ -8,7 +8,7 @@ function AddPost() {
                 <textarea placeholder='Escriba su texto aquí...' cols="15" rows="8" className=' rounded-sm border-input p-3 black-theme'></textarea>
                 <input type="file" name="" id="" />
             </fieldset>
-            <div className='flex justify-end'> 
+            <div className='flex justify-end'>
                 <button className='mt-4'>
                     <span class="button_top">Post</span>
                 </button>

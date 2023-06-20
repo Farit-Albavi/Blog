@@ -9,7 +9,7 @@ function App() {
     <>
       <Header></Header>
       <Categories></Categories>
-      <div className="m-auto container flex mt-5 text-white overflow-hidden">
+      <div className="m-auto container flex mt-5 text-white">
         <div className='m-auto flex gap-5'>
           <main className='flex gap-5 flex-col'>
             <AddPost></AddPost>
