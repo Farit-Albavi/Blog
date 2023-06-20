@@ -8,7 +8,6 @@ function App() {
 
   return (
     <>
-      <HeaderMovile></HeaderMovile>
       <Header></Header>
       <Categories></Categories>
       <div className="m-auto container flex mt-5 text-white">
@@ -19,7 +18,10 @@ function App() {
             <PostCard></PostCard>
             <PostCard></PostCard>
           </main>
-          <Aside1></Aside1>
+          <aside className='hidden xl:flex flex-col gap-5'>
+            <Aside1></Aside1>
+            <Aside1></Aside1>
+          </aside>
         </div>
       </div>
     </>

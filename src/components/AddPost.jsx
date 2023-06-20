@@ -4,7 +4,7 @@ function AddPost() {
         <form className='mx-auto w-full hidden xl:block xl:p-5 border-custom rounded-xl black-theme'>
             <fieldset className='flex flex-col gap-2'>
                 <legend className='font-bold mb-2'>Crear nuevo post:</legend>
-                <input placeholder='Escriba un título...' type="text" className=' rounded-sm border-input xl:p-3 black-theme' />
+                <input maxLength={60} placeholder='Escriba un título...' type="text" className=' rounded-sm border-input xl:p-3 black-theme' />
                 <textarea placeholder='Escriba su texto aquí...' cols="15" rows="8" className=' rounded-sm border-input xl:p-3 black-theme'></textarea>
                 <input className='w-full' type="file" name="" id="" />
             </fieldset>
