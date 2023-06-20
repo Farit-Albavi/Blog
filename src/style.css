@@ -1,0 +1,23 @@
+.border-custom {
+    border: 1px solid #343536;
+    /* Ancho de borde personalizado */
+    transition: color .5s, fill .5s, box-shadow .5s;
+}
+
+.border-input {
+    border: 1px solid #343536;
+    /* Ancho de borde personalizado */
+}
+
+body {
+    background-color: black;
+}
+
+.black-theme {
+    background-color: #1a1a1b;
+    /* background-color: #222; */
+}
+
+.body{
+    width: 100vw;
+}
