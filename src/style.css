@@ -27,4 +27,7 @@ a {
     /* Quitar subrayado */
     color: inherit;
     /* Heredar el color del texto */
+    transition: none;
+    /* Desactivar transiciones */
+
 }
