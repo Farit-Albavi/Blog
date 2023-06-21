@@ -3,6 +3,8 @@ import PostCard from './components/PostCard'
 import Categories from './components/Categories'
 import AddPost from './components/AddPost'
 import Aside1 from './components/Aside1'
+import PostList from './components/PostList'
+
 function App() {
 
   return (
@@ -13,9 +15,7 @@ function App() {
         <div className='m-auto flex gap-5'>
           <main className='flex gap-5 flex-col'>
             <AddPost></AddPost>
-            <PostCard></PostCard>
-            <PostCard></PostCard>
-            <PostCard></PostCard>
+            <PostList></PostList>
           </main>
           <aside className='hidden xl:flex flex-col gap-5'>
             <Aside1></Aside1>
