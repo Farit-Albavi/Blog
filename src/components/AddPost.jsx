@@ -20,7 +20,7 @@ function AddPost() {
 
     return (
         // era hidden el form en mobile
-        <form className='mx-auto w-full xl:block xl:p-5 border-custom rounded-xl black-theme' onSubmit={handleEvent}> {}
+        <form className='mx-auto w-full xl:block xl:p-5 border-custom rounded-xl black-theme' onSubmit={handleEvent}> { }
             <fieldset className='flex flex-col gap-2'>
                 <legend className='font-bold mb-2'>Crear nuevo post:</legend>
                 <input maxLength={60} placeholder='Escriba un título...' type="text" className=' rounded-sm border-input xl:p-3 black-theme'
