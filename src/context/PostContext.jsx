@@ -8,7 +8,8 @@ export function PostContextProvider({ children }) {
     function addNewPost(post) {
         setPosts([...posts, {
             title: post.title,
-            text: post.text
+            text: post.text,
+            image: post.image
         }])
 
     }
