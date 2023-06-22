@@ -9,10 +9,7 @@ function PostList() {
     return (
         <div className='flex flex-col gap-5 xl:w-custom-width '>
             {posts.map((post) => {
-                if (post.title !== '' && post.text !== '') {
-                    return <PostCard title={post.title} text={post.text} image={post.image} key={post.id} />;
-                }
-                return null;
+                return <PostCard title={post.title} text={post.text} image={post.image} key={post.id} />;
             })}
         </div>
     )

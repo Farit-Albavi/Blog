@@ -1,13 +1,16 @@
 import '../style.css'
 import { PostContext } from '../context/PostContext'
-import { useState, useContext } from 'react'
+import { useState, useContext, useRef } from 'react'
 function AddPost() {
 
-    const { addNewPost, posts } = useContext(PostContext)
+    const { addNewPost } = useContext(PostContext)
 
     const [title, setTitle] = useState('')
     const [text, setText] = useState('')
     const [image, setImage] = useState(null);
+    const inputFileRef = useRef(null);
+
+
 
     const handleFileChange = (e) => {
         const file = e.target.files[0];
@@ -20,19 +23,31 @@ function AddPost() {
         if (file) {
             reader.readAsDataURL(file);
         }
+
     };
 
 
     const handleEvent = (e) => {
         e.preventDefault()
-        addNewPost({
-            title,
-            text,
-            image
-        });
-        setTitle('')
-        setText('')
-        setImage('')
+        if (title !== '' && text !== '') {
+            addNewPost({
+                title,
+                text,
+                image
+            });
+            setText('')
+            setTitle('')
+            if (inputFileRef.current) inputFileRef.current.value = ''
+        }
+    }
+
+
+    function dsds(e) {
+        e.preventDefault()
+        if (title !== '' && text !== '' && image !== null) {
+            return handleEventValid;
+        }
+        return handleEventInvalid
     }
 
     return (
@@ -51,7 +66,7 @@ function AddPost() {
                     value={text}
                 ></textarea>
                 {/* File */}
-                <input className='w-full' type="file" name="" id="" onChange={handleFileChange} />
+                <input className='w-full' type="file" ref={inputFileRef} name="" id="" onChange={handleFileChange} />
             </fieldset>
             <div className='flex justify-end'>
                 <button className='mt-4'>
