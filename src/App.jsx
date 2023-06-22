@@ -18,8 +18,8 @@ function App() {
             <PostList></PostList>
           </main>
           <aside className='hidden xl:flex flex-col gap-5'>
-            <Aside1></Aside1>
-            <Aside1></Aside1>
+            <Aside1 info={'Aqui habra publicidad'}></Aside1>
+            <Aside1 info={'Aqui otra funcionalidad'}></Aside1>
           </aside>
         </div>
       </div>
