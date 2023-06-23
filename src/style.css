@@ -3,6 +3,11 @@
     /* Ancho de borde personalizado */
     transition: color .5s, fill .5s, box-shadow .5s;
 }
+.border-nav {
+    border: 1px solid #34353654;
+    /* Ancho de borde personalizado */
+    transition: color .5s, fill .5s, box-shadow .5s;
+}
 
 .border-input {
     border: 1px solid #343536;

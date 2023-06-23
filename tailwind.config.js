@@ -8,9 +8,11 @@ export default {
     extend: {
       width: {
         'custom-width': '600px', // Ancho personalizado 
+        'custom-width2': '940px', // Ancho personalizado 
       },
       height: {
         'custom-height': '80px', // Alto personalizado
+        
       },
     },
   },

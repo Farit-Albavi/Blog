@@ -5,8 +5,8 @@ import '../style.css'
 
 function Categories() {
     return (
-        <aside className='m-auto w-custom-width hidden xl:block mt-8 text-white'>
-            <div className='rounded-xl border-custom h-custom-height w-custom-width flex items-center justify-center gap-5'>
+        <aside className='m-auto w-custom-width2 hidden md:block text-white mb-7'>
+            <div className='rounded-xl border-custom h-custom-height flex items-center justify-center gap-5'>
                 <img src={flechaLeft} alt="arrow left" />
                 <ItemCategories section={'Arte'}></ItemCategories>
                 <ItemCategories section={'Politica'}></ItemCategories>
