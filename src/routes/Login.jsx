@@ -12,7 +12,7 @@ function Login() {
                                 Usuario
                             </label>
                             <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                                id="username" type="text" placeholder="Username" />
+                                id="username" type="text" placeholder="Ingrese su usuario..." />
                         </div>
                         <div className="mb-6">
                             <label className="block text-white text-sm font-bold mb-2" for="password">
