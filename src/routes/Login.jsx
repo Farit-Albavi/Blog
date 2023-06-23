@@ -2,10 +2,10 @@ import Header from '../components/Header'
 function Login() {
     return (
         <>
-            <Header></Header>
 
+            <Header></Header>
             <main className='w-full h-screen flex items-center justify-center overflow-y-hidden'>
-                <div className="w-full xl:max-w-lg max-w-2xl">
+                <div className="w-full xl:max-w-lg max-w-2xl flex justify-center items-center">
                     <form className="black-theme shadow-md rounded px-8 pt-6 pb-8 mb-4 w-full">
                         <div className="mb-4">
                             <label className="block text-white text-sm font-bold mb-2" for="username">
