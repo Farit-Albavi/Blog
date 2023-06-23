@@ -4,6 +4,7 @@ import App from './App'
 import { PostContextProvider } from './context/PostContext'
 import './index.css'
 import Login from './routes/Login'
+import Register from './routes/Register'
 
 import {
   createBrowserRouter,
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
   {
     path: "/login",
     element: <Login />,
+  },
+  {
+    path: "/register",
+    element: <Register />,
   },
 ]);
 
