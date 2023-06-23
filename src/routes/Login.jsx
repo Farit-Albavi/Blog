@@ -5,7 +5,7 @@ function Login() {
         <>
             <Header></Header>
             <main className='w-full h-screen flex items-center justify-center'>
-                <div className="w-full max-w-lg">
+                <div className="w-full xl:max-w-lg max-w-2xl">
                     <form className="black-theme shadow-md rounded px-8 pt-6 pb-8 mb-4 w-full">
                         <div className="mb-4">
                             <label className="block text-white text-sm font-bold mb-2" for="username">
