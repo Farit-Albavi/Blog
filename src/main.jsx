@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App'
+import UserView from './views/UserView'
 import { PostContextProvider } from './context/PostContext'
 import './index.css'
 import Login from './routes/Login'

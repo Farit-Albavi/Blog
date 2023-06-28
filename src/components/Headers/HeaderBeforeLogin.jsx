@@ -11,10 +11,7 @@ function Header() {
                 </h1>
                 <ul className='flex list-none gap-7 justify-end text-white'>
                     <li>
-                        <Link to={'/login'}>Login</Link>
-                    </li>
-                    <li>
-                        <Link to={'/register'}>Registrarse</Link>
+                        <Link to={'/login'}>Entrar al blog!</Link>
                     </li>
                 </ul>
             </nav>

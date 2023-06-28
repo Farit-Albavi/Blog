@@ -1,10 +1,10 @@
-import React from 'react'
+import { useState } from 'react'
 import HeaderBeforeLogin from './Headers/HeaderBeforeLogin'
 import HeaderAfterLogin from './Headers/HeaderAfterLogin'
-function Header() {
-    let logIn = false
+function Header({ isLoggingIn }) {
+
     return (
-        logIn ? <HeaderAfterLogin /> : <HeaderBeforeLogin />
+        isLoggingIn ? <HeaderAfterLogin /> : <HeaderBeforeLogin />
     )
 }
 
