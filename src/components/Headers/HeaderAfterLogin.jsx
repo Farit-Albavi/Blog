@@ -11,7 +11,7 @@ function HeaderAfterLogin() {
                 </h1>
                 <ul className='flex list-none gap-5 justify-end text-white'>
                     <li>
-                        <Link to={'/'}>Home</Link>
+                        <h1 className='font-bold text-yellow-100'>Hello, user</h1>
                     </li>
                     <li>
                         <Link to={'/'}>About</Link>

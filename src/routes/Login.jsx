@@ -27,6 +27,8 @@ function Login() {
             console.log('res 2: ' + isLoggingIn);
         }
         console.log('res 3: ' + isLoggingIn);
+        e.target.username.value = ''
+        e.target.password.value = ''
     }
 
     return (
